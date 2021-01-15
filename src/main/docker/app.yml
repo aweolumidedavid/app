@@ -1,0 +1,6 @@
+version: '2'
+services:
+  tenantapp-app:
+    build: ../../..
+    container_name: tenantapp-app
+    environment:
